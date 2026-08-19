@@ -1,0 +1,621 @@
+/* =========================================================
+   WC FLASH PROMOTION — ULTRA VIP ADMIN THEME
+   ========================================================= */
+
+.wcp-wrap {
+	--wcp-navy: #131328;
+	--wcp-navy-2: #1c1f3d;
+	--wcp-gold: #d4af37;
+	--wcp-gold-light: #f3d98b;
+	--wcp-red: #e2001a;
+	--wcp-green: #1e9e5a;
+	--wcp-border: #eae4d3;
+	--wcp-text-soft: #6b6b7a;
+	max-width: 1180px;
+	margin-top: 20px;
+}
+
+.wcp-wrap * {
+	box-sizing: border-box;
+}
+
+/* ---------- Header / Banner ---------- */
+.wcp-hero {
+	position: relative;
+	overflow: hidden;
+	border-radius: 16px;
+	padding: 32px 36px;
+	margin-bottom: 24px;
+	background: linear-gradient(135deg, var(--wcp-navy) 0%, var(--wcp-navy-2) 55%, #2a1f45 100%);
+	color: #fff;
+	box-shadow: 0 12px 30px rgba(19, 19, 40, 0.25);
+}
+
+.wcp-hero::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: radial-gradient(circle at 85% 0%, rgba(212, 175, 55, 0.35), transparent 55%);
+	pointer-events: none;
+}
+
+.wcp-hero__badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	background: linear-gradient(135deg, var(--wcp-gold-light), var(--wcp-gold));
+	color: #2a1f00;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	padding: 4px 12px;
+	border-radius: 999px;
+	margin-bottom: 12px;
+}
+
+.wcp-hero h1 {
+	margin: 0 0 6px;
+	font-size: 26px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.wcp-hero p {
+	margin: 0;
+	color: rgba(255, 255, 255, 0.75);
+	font-size: 14px;
+	max-width: 640px;
+}
+
+/* ---------- Stat cards ---------- */
+.wcp-stats {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 16px;
+	margin-bottom: 26px;
+}
+
+@media (max-width: 900px) {
+	.wcp-stats {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.wcp-stat-card {
+	background: #fff;
+	border-radius: 12px;
+	padding: 18px 18px 16px;
+	border: 1px solid var(--wcp-border);
+	border-left: 4px solid var(--wcp-gold);
+	box-shadow: 0 2px 10px rgba(19, 19, 40, 0.05);
+}
+
+.wcp-stat-card--active {
+	border-left-color: var(--wcp-green);
+}
+
+.wcp-stat-card--off {
+	border-left-color: #c9c9d4;
+}
+
+.wcp-stat-card__label {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: var(--wcp-text-soft);
+	font-weight: 600;
+	margin-bottom: 6px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.wcp-stat-card__value {
+	font-size: 22px;
+	font-weight: 700;
+	color: var(--wcp-navy);
+	line-height: 1.2;
+}
+
+.wcp-stat-card__value--red {
+	color: var(--wcp-red);
+}
+
+.wcp-stat-card__value--green {
+	color: var(--wcp-green);
+}
+
+.wcp-stat-card__sub {
+	font-size: 12px;
+	color: var(--wcp-text-soft);
+	margin-top: 2px;
+}
+
+/* ---------- Panels ---------- */
+.wcp-panel {
+	background: #fff;
+	border: 1px solid var(--wcp-border);
+	border-radius: 14px;
+	padding: 24px 26px 26px;
+	margin-bottom: 22px;
+	box-shadow: 0 2px 12px rgba(19, 19, 40, 0.04);
+}
+
+.wcp-panel__header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 18px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid var(--wcp-border);
+}
+
+.wcp-panel__icon {
+	width: 34px;
+	height: 34px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, var(--wcp-gold-light), var(--wcp-gold));
+	font-size: 16px;
+	flex-shrink: 0;
+}
+
+.wcp-panel__title {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 700;
+	color: var(--wcp-navy);
+}
+
+.wcp-panel__desc {
+	margin: 2px 0 0;
+	font-size: 12.5px;
+	color: var(--wcp-text-soft);
+}
+
+/* ---------- Form fields ---------- */
+.wcp-field-row {
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	gap: 16px;
+	padding: 14px 0;
+	border-bottom: 1px dashed var(--wcp-border);
+	align-items: start;
+}
+
+.wcp-field-row:last-child {
+	border-bottom: none;
+}
+
+.wcp-field-row__label {
+	font-weight: 600;
+	color: var(--wcp-navy);
+	padding-top: 6px;
+	font-size: 13.5px;
+}
+
+@media (max-width: 782px) {
+	.wcp-field-row {
+		grid-template-columns: 1fr;
+	}
+}
+
+.wcp-toggle {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+}
+
+.wcp-toggle input[type="checkbox"] {
+	width: 42px;
+	height: 24px;
+	appearance: none;
+	background: #d8d8e0;
+	border-radius: 999px;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	transition: background 0.2s ease;
+}
+
+.wcp-toggle input[type="checkbox"]::before {
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: #fff;
+	transition: transform 0.2s ease;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.wcp-toggle input[type="checkbox"]:checked {
+	background: linear-gradient(135deg, var(--wcp-gold-light), var(--wcp-gold));
+}
+
+.wcp-toggle input[type="checkbox"]:checked::before {
+	transform: translateX(18px);
+}
+
+.wcp-toggle span {
+	font-size: 13.5px;
+	color: var(--wcp-navy);
+}
+
+/* ---------- Datetime & presets ---------- */
+.wcp-datetime-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	align-items: center;
+}
+
+.wcp-datetime-group input[type="date"],
+.wcp-datetime-group input[type="time"] {
+	border-radius: 8px;
+	border: 1px solid var(--wcp-border);
+	padding: 6px 10px;
+}
+
+.wcp-presets {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-top: 10px;
+}
+
+.wcp-pill-btn {
+	border: 1px solid var(--wcp-gold);
+	background: #fff8e8;
+	color: #8a6d1a;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 5px 12px;
+	border-radius: 999px;
+	cursor: pointer;
+	transition: all 0.15s ease;
+}
+
+.wcp-pill-btn:hover {
+	background: var(--wcp-gold);
+	color: #2a1f00;
+}
+
+/* ---------- Countdown ---------- */
+.wcp-countdown {
+	font-size: 20px;
+	font-weight: 700;
+	font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Percent input ---------- */
+.wcp-percent-input {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.wcp-percent-input input[type="number"] {
+	width: 110px;
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--wcp-red);
+	border-radius: 8px;
+	border: 1px solid var(--wcp-border);
+	padding: 8px 10px;
+	text-align: center;
+}
+
+.wcp-percent-input .wcp-percent-sign {
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--wcp-red);
+}
+
+.wcp-preview-price {
+	margin-top: 10px;
+	font-size: 12.5px;
+	color: var(--wcp-text-soft);
+}
+
+.wcp-preview-price s {
+	color: #a8a8b3;
+	margin-right: 6px;
+}
+
+.wcp-preview-price strong {
+	color: var(--wcp-red);
+	font-size: 14px;
+}
+
+/* ---------- Scope cards ---------- */
+.wcp-scope-cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 12px;
+}
+
+@media (max-width: 782px) {
+	.wcp-scope-cards {
+		grid-template-columns: 1fr;
+	}
+}
+
+.wcp-scope-card {
+	position: relative;
+	display: block;
+	border: 2px solid var(--wcp-border);
+	border-radius: 12px;
+	padding: 14px 14px 12px;
+	cursor: pointer;
+	transition: all 0.15s ease;
+	background: #fff;
+}
+
+.wcp-scope-card:hover {
+	border-color: var(--wcp-gold-light);
+}
+
+.wcp-scope-card input {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.wcp-scope-card__icon {
+	font-size: 20px;
+	margin-bottom: 6px;
+	display: block;
+}
+
+.wcp-scope-card__title {
+	font-weight: 700;
+	font-size: 13.5px;
+	color: var(--wcp-navy);
+	display: block;
+	margin-bottom: 2px;
+}
+
+.wcp-scope-card__desc {
+	font-size: 11.5px;
+	color: var(--wcp-text-soft);
+	display: block;
+}
+
+.wcp-scope-card.is-selected {
+	border-color: var(--wcp-gold);
+	background: linear-gradient(180deg, #fffdf5, #fff);
+	box-shadow: 0 4px 14px rgba(212, 175, 55, 0.25);
+}
+
+.wcp-scope-card.is-selected::after {
+	content: "✓";
+	position: absolute;
+	top: 10px;
+	right: 12px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: var(--wcp-gold);
+	color: #2a1f00;
+	font-size: 12px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ---------- Category chips ---------- */
+.wcp-chip-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.wcp-chip {
+	position: relative;
+	cursor: pointer;
+}
+
+.wcp-chip input {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.wcp-chip span {
+	display: inline-block;
+	padding: 6px 14px;
+	border-radius: 999px;
+	border: 1px solid var(--wcp-border);
+	font-size: 12.5px;
+	color: var(--wcp-navy);
+	background: #fff;
+	transition: all 0.15s ease;
+}
+
+.wcp-chip input:checked + span {
+	background: linear-gradient(135deg, var(--wcp-gold-light), var(--wcp-gold));
+	border-color: var(--wcp-gold);
+	color: #2a1f00;
+	font-weight: 600;
+}
+
+/* ---------- Product picker table ---------- */
+.wcp-picker-toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+.wcp-picker-toolbar input[type="search"],
+.wcp-picker-toolbar select {
+	border-radius: 8px;
+	border: 1px solid var(--wcp-border);
+	padding: 7px 12px;
+	font-size: 13px;
+}
+
+.wcp-picker-toolbar input[type="search"] {
+	flex: 1;
+	min-width: 200px;
+}
+
+.wcp-picker-count {
+	margin-left: auto;
+	font-size: 12.5px;
+	color: var(--wcp-text-soft);
+	white-space: nowrap;
+}
+
+.wcp-picker-count strong {
+	color: var(--wcp-red);
+}
+
+.wcp-product-table-wrap {
+	border: 1px solid var(--wcp-border);
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.wcp-product-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 13px;
+}
+
+.wcp-product-table thead th {
+	background: #faf8f2;
+	text-align: left;
+	padding: 10px 12px;
+	font-size: 11.5px;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: var(--wcp-text-soft);
+	border-bottom: 1px solid var(--wcp-border);
+}
+
+.wcp-product-table tbody tr {
+	border-bottom: 1px solid #f2efe4;
+	transition: background 0.1s ease;
+}
+
+.wcp-product-table tbody tr:hover {
+	background: #fffdf5;
+}
+
+.wcp-product-table tbody tr.is-checked {
+	background: #fff8e8;
+}
+
+.wcp-product-table td {
+	padding: 8px 12px;
+	vertical-align: middle;
+}
+
+.wcp-product-thumb {
+	width: 36px;
+	height: 36px;
+	border-radius: 8px;
+	object-fit: cover;
+	border: 1px solid var(--wcp-border);
+	background: #f5f5f5;
+	display: block;
+}
+
+.wcp-product-name {
+	font-weight: 600;
+	color: var(--wcp-navy);
+}
+
+.wcp-product-sku {
+	color: var(--wcp-text-soft);
+	font-size: 11.5px;
+}
+
+.wcp-product-price {
+	white-space: nowrap;
+}
+
+.wcp-product-price .wcp-new-price {
+	color: var(--wcp-red);
+	font-weight: 700;
+	margin-left: 4px;
+}
+
+.wcp-empty-row td {
+	text-align: center;
+	padding: 26px;
+	color: var(--wcp-text-soft);
+}
+
+.wcp-pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	padding: 12px;
+	background: #faf8f2;
+	border-top: 1px solid var(--wcp-border);
+}
+
+.wcp-pagination button {
+	border: 1px solid var(--wcp-border);
+	background: #fff;
+	border-radius: 6px;
+	padding: 4px 10px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.wcp-pagination button.is-active {
+	background: var(--wcp-gold);
+	border-color: var(--wcp-gold);
+	color: #2a1f00;
+	font-weight: 700;
+}
+
+.wcp-pagination button:disabled {
+	opacity: 0.4;
+	cursor: not-allowed;
+}
+
+/* ---------- Submit bar ---------- */
+.wcp-submit-bar {
+	position: sticky;
+	bottom: 0;
+	background: linear-gradient(0deg, #fff 60%, rgba(255, 255, 255, 0));
+	padding: 16px 0 6px;
+	margin-top: 6px;
+}
+
+.wcp-submit-bar .button-primary {
+	background: linear-gradient(135deg, var(--wcp-navy), var(--wcp-navy-2));
+	border: 1px solid var(--wcp-navy);
+	box-shadow: 0 6px 16px rgba(19, 19, 40, 0.3);
+	padding: 6px 22px;
+	height: auto;
+	font-weight: 700;
+	border-radius: 999px;
+}
+
+.wcp-submit-bar .button-primary:hover {
+	background: linear-gradient(135deg, var(--wcp-navy-2), var(--wcp-navy));
+}
+
+/* =========================================================
+   FRONTEND — sale badge
+   ========================================================= */
+.onsale.wcp-onsale {
+	background-color: #e2001a;
+	color: #fff;
+	font-weight: 700;
+}
