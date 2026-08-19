@@ -1,0 +1,87 @@
+/*
+Theme Name: BeShop
+Theme URI: https://wpthemespace.com/product/beshop/ 
+Author: Noor Alam
+Author URI: https://profiles.wordpress.org/nalam-1/
+Description: RTL version of BeShop - an awesome WordPress Shop and Blog Theme.
+Version: 1.1.15
+License: GNU General Public License v2 or later
+License URI: http://opensource.org/licenses/gpl-2.0.php 
+Text Domain: beshop
+Tags: e-commerce, blog, two-columns, left-sidebar, custom-background, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, rtl-language-support
+
+RTL version of the main stylesheet.
+*/
+
+/* RTL styles will be added here as needed */
+
+/* Generic RTL adjustments */
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+/* Text alignment adjustments */
+.text-left {
+    text-align: right !important;
+}
+
+.text-right {
+    text-align: left !important;
+}
+
+/* Float adjustments */
+.float-left {
+    float: right !important;
+}
+
+.float-right {
+    float: left !important;
+}
+
+/* Padding and margin adjustments */
+.pl-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.pr-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.ml-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.mr-0 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* List adjustments */
+ul, ol {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Form adjustments */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    text-align: right;
+}

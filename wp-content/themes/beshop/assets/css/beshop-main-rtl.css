@@ -1,0 +1,506 @@
+/*
+RTL version of beshop-main.css
+*/
+
+/* Adjustments for RTL layout */
+.beshop-blog-text,
+.beshop-blog-img {
+    /* In RTL, we might need to adjust the flex direction or order */
+}
+
+.beshop-btext {
+    margin-right: -120px;
+    margin-left: 0;
+}
+
+.bshop-simple-list.hasimg .beshop-btext {
+    padding: 0 15px 0 0;
+}
+
+.bshop-list-flex .beshop-blog-img {
+    flex-basis: 550px;
+}
+
+.beshop-btext {
+    margin-right: 0;
+}
+
+/* Entry footer adjustments */
+.entry-footer span {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+/* Header adjustments */
+.header-top-search {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.menulogo-right .has-logo-menu .beshop-main-menu {
+    text-align: right;
+}
+
+/* Top menu adjustments */
+.btop-menu li {
+    padding: 0 10px;
+}
+
+.beshop-tophead a:hover {
+    color: #dedede;
+}
+
+.header-top-search input[type="search"] {
+    width: 100%;
+    padding: 3px 7px;
+}
+
+.header-top-search {
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+/* Header middle style */
+.has-logo-menu .site-title a {
+    font-size: 26px;
+}
+
+h1.site-title a {
+    font-size: 72px;
+    color: #4169e1;
+}
+
+p.site-description {
+    position: relative;
+    display: inline-block;
+    padding: 5px 50px;
+    z-index: 1;
+}
+
+p.site-description:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #E0ECDE;
+    z-index: -1;
+}
+
+.menu-logo img {
+    max-width: 200px;
+    margin-bottom: 0;
+    height: auto;
+}
+
+/* Widgets - sidebar */
+.footer-widget .widget-title {
+    text-align: right;
+    padding-right: 0;
+    padding-left: inherit;
+}
+
+/* Footer */
+.site-info.finfo a {
+    color: #404040;
+    display: inline-block !important;
+}
+
+p.footer-copyright {
+    margin-bottom: 5px;
+}
+
+/* Content style */
+.sticky .entry-header,
+.tag-sticky-2 .entry-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.bshop-list-flex,
+.bshop-simple-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.beshop-blog-text,
+.beshop-blog-img {
+    width: 50%;
+}
+
+.beshop-blog-img a {
+    display: block;
+}
+
+.beshop-blog-img img {
+    width: 100%;
+    border: 1px solid #ededed;
+}
+
+.bshop-list-flex .beshop-blog-img {
+    -ms-flex-preferred-size: 550px;
+    flex-basis: 550px;
+}
+
+.beshop-blog-list .beshop-btext .entry-content {
+    margin-top: 0.4em;
+}
+
+.beshop-btext,
+.bshop-simple-list.hasimg,
+.widget-area .widget,
+.site-footer,
+.archive-header,
+.search-header,
+.beshop-page,
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation,
+.site-footer,
+.bshop-blog-list,
+.bshop-single-list,
+.comments-area {
+    -webkit-box-shadow: 0 0 70px rgba(0,0,0,.11);
+    box-shadow: 0 0 70px rgba(0,0,0,.11);
+    padding: 20px;
+    background: #fff;
+}
+
+.beshop-btext {
+    margin-right: -120px;
+    margin-left: 0;
+}
+
+.bshop-simple-list.hasimg .beshop-btext {
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit;
+    padding: 0 15px 0 0;
+    background: transparent;
+}
+
+.bshop-simple-list .beshop-btext {
+    margin-right: 0;
+    margin-left: inherit;
+}
+
+.no-img .beshop-btext {
+    margin-right: 0;
+    margin-left: inherit;
+}
+
+.beshop-blog-text {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    position: relative;
+    overflow: inherit;
+}
+
+.no-img .beshop-blog-text {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.entry-footer,
+.entry-footer a {
+    font-size: 12px;
+}
+
+.entry-footer {
+    background: #E0ECDE;
+    padding: 15px 10px;
+    text-align: center;
+    margin: 35px 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.page .entry-footer {
+    display: inline-block;
+    width: auto;
+    background: inherit;
+}
+
+form.post-password-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+form.post-password-form p {
+    width: 100%;
+}
+
+.entry-footer,
+.entry-footer a {
+    font-size: 12px;
+}
+
+.entry-footer span {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.site-footer,
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+    background: #E0ECDE;
+}
+
+.theme-beshop a#clickTop {
+    bottom: 85px;
+    left: 10px;
+    right: auto;
+}
+
+/* Beshop Banner style */
+.beshop-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    position: relative;
+}
+
+.bg-overlay {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .5));
+}
+
+.beshop-banner.bg-overlay {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.bbanner-text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    z-index: 225;
+    position: relative;
+    text-align: right;
+}
+
+.overlay-banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.4;
+}
+
+.bbanner-text h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.bbanner-text h1 {
+    font-size: 50px;
+    margin: 5px 0 15px;
+    font-weight: 700;
+}
+
+.beshop-banner .bbanner-text h1,
+.beshop-banner .bbanner-text h4,
+.beshop-banner .bbanner-text p {
+    color: #fff;
+}
+
+a.btn.bshop-btn {
+    background: #77A464;
+    color: #fff;
+}
+
+a.btn.bshop-btn:hover {
+    opacity: 0.8;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+    .beshop-main-menu nav {
+        position: relative;
+    }
+
+    .beshop-main-menu-container {
+        position: absolute;
+        right: 0;
+        left: auto;
+        background: #343a40;
+        z-index: 99999;
+        top: 45px;
+        box-shadow: 0px 3px 40px rgba(0,0,0,0.20);
+        --webkit--box-shadow: 0px 3px 40px rgba(0,0,0,0.20);
+    }
+    
+    .d-flex.has-logo-menu {
+        flex-flow: row wrap;
+    }
+
+    .has-logo-menu .beshop-main-menu {
+        text-align: left;
+    }
+    
+    .menulogo-right .has-logo-menu .beshop-main-menu {
+        text-align: right;
+    }
+
+    .has-logo-menu .beshop-main-menu ul {
+        text-align: right;
+    }
+    
+    .bshop-list-flex,
+    .bshop-simple-list {
+        flex-direction: column;
+    }
+    
+    h1.site-title a {
+        font-size: 50px;
+        margin-top: 30px;
+        display: block;
+    }
+    
+    p.site-description {
+        font-size: 16px;
+    }
+    
+    .beshop-blog-text,
+    .beshop-blog-img {
+        width: 100%;
+        -ms-flex-preferred-size: inherit;
+        flex-basis: inherit;
+    }
+    
+    .beshop-blog-img img {
+        margin-bottom: 15px;
+    }
+    
+    .bshop-list-flex {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    
+    .beshop-btext {
+        margin-right: 0;
+        margin-left: inherit;
+    }
+
+    ul#btop-menu {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    
+    .beshop-tophead {
+        text-align: center;
+    }
+    
+    .header-top-search {
+        width: 200px;
+        margin: 10px 0 2px auto;
+    }
+    
+    .beshop-tophead .col-lg-auto {
+        margin: 0 0 6px 0;
+    }
+    
+    .topmenu-serch {
+        display: flex;
+        align-items: baseline;
+        flex-flow: row wrap;
+    }
+    
+    .topmenu-serch.bsearch-popup {
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .headerlogo-text .container.pb-5.pt-5 {
+        padding: 5px 0 !important;
+    }
+    
+    h1.site-title a {
+        font-size: 40px;
+        margin-top: 30px;
+        display: block;
+    }
+    
+    p.site-description {
+        font-size: 14px;
+    }
+    
+    .theme-beshop a#clickTop {
+        bottom: 20px;
+        left: 10px;
+        right: auto;
+    }
+    
+    .header-top-search {
+        margin: 10px auto 2px auto;
+    }
+    
+    .topmenu-serch.bsearch-popup {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .d-flex.has-logo-menu {
+        flex-flow: column wrap;
+    }
+}
+
+/* Simple WordPress Pagination */
+.nav-links {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.page-numbers {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.page-numbers:hover {
+    background: #ddd;
+}
+
+.page-numbers.current {
+    background: #007cba;
+    color: white;
+}
+
+.page-numbers.prev,
+.page-numbers.next {
+    font-weight: bold;
+}

@@ -1,0 +1,81 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Beshop Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-03 10:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.1; wp-5.6.2\n"
+"X-Domain: beshop-free"
+
+#. Name of the theme
+msgid "Beshop Free"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Beshop Free is a free awesome WordPress Shop, magazine and blog theme. You "
+"can use the theme in your next projects. This is the child theme of Beshop "
+"theme. You can display your shop website in an awesome way by Beshop Free "
+"theme. Your site will be very beautiful and good-looking.  Beshop Free is "
+"editable and super flexible with new functionality. The theme has huge theme "
+"options. This theme is made for any search engine, SEO Compatible.  Beshop "
+"Free is totally responsive.  Html5 and css3 based coded.  It is the "
+"wonderful shop and blog theme you case to use for the shop and blog website."
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Classic Style"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Grid Style"
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/noralam/beshop-free"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://profiles.wordpress.org/nalam-1/"
+msgstr ""
+
+#: inc/customizer.php:33
+msgid "List over Image"
+msgstr ""
+
+#: inc/customizer.php:34
+msgid "List Style"
+msgstr ""
+
+#. Author of the theme
+msgid "Noor alam"
+msgstr ""
+
+#: inc/customizer.php:28
+msgid "Select Blog Style"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Select Products Style"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Style One"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Style Two"
+msgstr ""

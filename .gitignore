@@ -1,0 +1,37 @@
+# 1. Bỏ qua các file core của WordPress (nếu chỉ muốn push wp-content)
+# Nếu muốn push cả core WP thì bỏ dòng wp-admin/, wp-includes/ và *.php bên dưới
+
+# Core WordPress
+wp-admin/
+wp-includes/
+xmlrpc.php
+readme.html
+license.txt
+wp-*.php
+!wp-config-sample.php
+
+# 2. BẢO MẬT - Không bao giờ push file cấu hình database
+wp-config.php
+
+# 3. Quản lý thư mục wp-content
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/cache/
+wp-content/cache/meta-cache/
+
+# 4. Các file hệ thống & Cache rác
+.htaccess
+DS_Store
+Thumbs.db
+*.log
+*.sql
+*.tar.gz
+*.zip
+
+# 5. Các file cấu hình môi trường / IDE
+.env
+.idea/
+.vscode/

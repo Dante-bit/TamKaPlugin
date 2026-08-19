@@ -1,0 +1,509 @@
+.beshop-about-wrap .beshop-section .dashicons {
+  margin-top: -4px;
+  vertical-align: middle;
+}
+.beshop-about-wrap .nav-tab {
+  font-size: 16px;
+}
+.beshop-about-wrap h1 {
+  font-size: 2em;
+}
+.beshop-about-wrap h3 {
+  font-size: 1.2em;
+}
+.beshop-about-wrap .wp-badge {
+  background-size: 180px auto;
+  background-position: center;
+  height: 160px;
+  padding: 0;
+  width: 190px;
+  border-radius: 10%;
+}
+.beshop-about-wrap .quick-links a {
+  margin-right: 5px;
+}
+.beshop-about-notice .btn-dismiss {
+  margin-left: 20px;
+}
+.beshop-about-wrap .plugin-list {
+  list-style-position: inside;
+  list-style-type: disc;
+}
+.about-wrap .feature-section {
+  padding: 40px 0 0;
+  overflow: hidden;
+}
+.about-page-action-required-box {
+  background: #fff;
+  border-left: 4px solid #f8800c;
+  display: block;
+  margin-bottom: 0;
+  padding: 10px 30px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.about-wrap .about-page-required-action-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #b4b9be;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.about-wrap .about-page-required-action-button:hover:before {
+  color: #f44336;
+}
+.about-wrap .about-page-action-required-box p {
+  display: block;
+  margin-top: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.about-wrap .feature-section.recommended-plugins .col {
+  background: #fff;
+  padding: 20px;
+  margin-top: 0;
+}
+#free_pro .free-pro-table {
+  border-spacing: 0;
+  width: 100%;
+}
+#free_pro .free-pro-table th {
+  padding-bottom: 20px;
+}
+#free_pro .free-pro-table td {
+  border-top: 1px solid #ccc;
+  padding: 20px 0 25px;
+}
+#free_pro .free-pro-table h3,
+#free_pro .free-pro-table td p {
+  margin: 0;
+}
+#free_pro .free-pro-table .only-lite,
+#free_pro .free-pro-table .only-pro {
+  text-align: center;
+  width: 15%;
+}
+#free_pro .free-pro-table .only-lite .dashicons-before:before {
+  color: #00a878;
+}
+#free_pro .free-pro-table .only-pro .dashicons-before:before {
+  color: #ff3439;
+}
+#free_pro .free-pro-table .only-lite .dashicons-before:before,
+#free_pro .free-pro-table .only-pro .dashicons-before:before {
+  font-size: 35px;
+  height: 35px;
+  width: 35px;
+}
+#free_pro .ti-about-page-text-center {
+  text-align: center;
+}
+.badge-action-count {
+  padding: 0 6px;
+  display: inline-block;
+  background-color: #d54e21;
+  color: #fff;
+  font-size: 9px;
+  line-height: 17px;
+  font-weight: 600;
+  margin: 1px 0 0 5px;
+  vertical-align: top;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  z-index: 26;
+}
+.beshop-about-wrap .badge-action-count {
+  margin-top: 5px;
+}
+.about-wrap .three-col .col.plugin_box {
+  min-width: 150px;
+  max-width: 150px;
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+  min-height: 285px;
+}
+.about-wrap .three-col .col.plugin_box img {
+  margin-bottom: 10px;
+}
+.col.plugin_box .action_bar {
+  margin: 10px 0;
+}
+a.button.button-danger {
+  background: #c82333;
+  border-color: #c82333;
+  color: #fff;
+}
+a.button.button-danger:hover {
+  background: green;
+  border-color: green;
+  color: #fff;
+}
+/*.eye-notice.notice.notice-warning.is-dismissible {
+    background: lemonchiffon;
+}*/
+.cupon-code {
+  text-transform: lowercase;
+}
+.col {
+  width: 30%;
+  float: left;
+  margin-right: 3%;
+  margin-bottom: 20px;
+  min-height: 230px;
+}
+
+div#plugin-filter {
+  display: flex;
+  flex-flow: row wrap;
+}
+.ocdi-install-plugins-content-content {
+  display: none;
+}
+@media only screen and (max-width: 780px) {
+  .col {
+    width: 100%;
+    float: left;
+    margin-right: 0;
+    margin-bottom: 20px;
+    min-height: 230px;
+  }
+}
+.mgadin-hero {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.mge-info-hello {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.mge-info-title {
+  font-size: 22px;
+  display: block;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.mge-info-desc div {
+  margin-bottom: 10px;
+}
+
+.mge-info-desc {
+  font-size: 16px;
+  line-height: 1.3;
+  margin: 10px 0 20px;
+}
+
+.mge-info-actions {
+  display: flex;
+  align-items: center;
+}
+
+.mge-info-actions a.button {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 20px;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.mge-info-actions .button i {
+  margin-left: 15px;
+}
+
+.mge-info-image {
+  flex: 0 0 400px;
+  overflow: hidden;
+}
+
+.mge-info-image img {
+  max-width: 100%;
+  min-width: 200px;
+}
+
+.mge-info-rev strong {
+  margin: 10px 0 1px;
+  display: block;
+  font-size: 15px;
+}
+
+.mge-info-actions.mgerev-action {
+  display: flex;
+  align-items: center;
+}
+
+.mge-info-desc div.mge-offer {
+  color: #a30000;
+  font-weight: 700;
+}
+
+.mge-info-rev .button {
+  padding: 5px 20px !important;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-right: 10px;
+  font-size: 15px !important;
+}
+
+/* BeShop Pro Notice Styles */
+.mgadin-hero {
+  background: linear-gradient(135deg, #e5ebff 0%, #ecdaff 100%);
+  color: #000000;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.mge-info-content {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.mge-info-hello {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.mge-info-desc {
+  margin-bottom: 25px;
+}
+
+.mge-upgrade-text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.mge-features-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.mge-feature {
+  background: rgba(255,255,255,0.5);
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.mge-offer {
+  background: rgba(255,255,255,0.15);
+  padding: 18px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border: 2px solid rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+}
+
+.mge-info-actions {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mge-info-actions .button {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.upgrade-btn {
+  background: #ff6b6b !important;
+  color: white !important;
+  box-shadow: 0 4px 15px rgba(255,107,107,0.4);
+}
+
+.upgrade-btn:hover {
+  background: #ff5252 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255,107,107,0.6);
+}
+
+.demo-btn {
+  background: #4ecdc4 !important;
+  color: white !important;
+  box-shadow: 0 4px 15px rgba(78,205,196,0.4);
+}
+
+.demo-btn:hover {
+  background: #26d0ce !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(78,205,196,0.6);
+}
+
+.btnend {
+  background: rgba(255,255,255,0.5) !important;
+  color: rgb(123, 123, 123) !important;
+  border: 2px solid rgba(255,255,255,0.3) !important;
+}
+
+.btnend:hover {
+  background: rgba(255,255,255,0.3) !important;
+  border-color: rgba(255,255,255,0.5) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mgadin-hero {
+      padding: 20px;
+      margin: 15px 0;
+  }
+  
+  .mge-info-hello {
+      font-size: 20px;
+      margin-bottom: 15px;
+  }
+  
+  .mge-upgrade-text {
+      font-size: 16px;
+  }
+  
+  .mge-features-list {
+      grid-template-columns: 1fr;
+      gap: 8px;
+  }
+  
+  .mge-feature {
+      padding: 10px 14px;
+      font-size: 14px;
+  }
+  
+  .mge-offer {
+      padding: 15px 18px;
+      font-size: 14px;
+  }
+  
+  .mge-info-actions {
+      flex-direction: column;
+      gap: 10px;
+  }
+  
+  .mge-info-actions .button {
+      width: 100%;
+      text-align: center;
+      padding: 12px 20px;
+      font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mgadin-hero {
+      padding: 15px;
+      border-radius: 8px;
+  }
+  
+  .mge-info-hello {
+      font-size: 18px;
+  }
+  
+  .mge-upgrade-text {
+      font-size: 15px;
+  }
+  
+  .mge-feature {
+      font-size: 13px;
+      padding: 8px 12px;
+  }
+}
+
+/* Admin Notice Animations */
+@keyframes fadeInUp{from{opacity:0;transform:translate3d(0,20px,0)}to{opacity:1;transform:translate3d(0,0,0)}}@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.05)}100%{transform:scale(1)}}@keyframes bounceIn{from,20%,40%,60%,80%,to{animation-timing-function:cubic-bezier(0.215,0.610,0.355,1.000)}0%{opacity:0;transform:scale3d(.3,.3,.3)}20%{transform:scale3d(1.1,1.1,1.1)}40%{transform:scale3d(.9,.9,.9)}60%{opacity:1;transform:scale3d(1.03,1.03,1.03)}80%{transform:scale3d(.97,.97,.97)}to{opacity:1;transform:scale3d(1,1,1)}}.mgadin-notice{animation:fadeInUp 0.6s ease-out}.mgadin-hero{animation:bounceIn 0.8s}.mge-offer{animation:pulse 2s infinite}.upgrade-btn,.demo-btn{transition:all 0.3s ease}.upgrade-btn:hover,.demo-btn:hover{transform:translateY(-3px);box-shadow:0 4px 8px rgba(0,0,0,0.2)}
+
+/* Admin Notice Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    transform: scale3d(.97, .97, .97);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.mgadin-notice {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.mgadin-hero {
+  animation: bounceIn 0.8s;
+}
+
+.mge-offer {
+  animation: pulse 2s infinite;
+}
+
+.upgrade-btn, .demo-btn {
+  transition: all 0.3s ease;
+}
+
+.upgrade-btn:hover, .demo-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

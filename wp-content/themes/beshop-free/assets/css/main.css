@@ -1,0 +1,219 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+}
+article a,
+a:hover {
+    text-decoration: underline;
+}
+.bsgrid-item a,
+.bsgrid-item article a {
+    text-decoration: inherit !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    letter-spacing: inherit;
+}
+p{
+    font-size: inherit;
+    line-height: inherit;
+    color:#5d5c5c
+}
+.container-fluid {
+    max-width: 1580px;
+}
+.beshop-header .site-title {
+    text-shadow: 2px 6px 3px #999;
+}
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.bs-gridh h2.entry-title {
+    font-size: 18px;
+}
+a.add_to_cart_button {
+    margin: 5px !important;
+}
+.bs-gridh .entry-meta, 
+.bs-gridh .entry-meta a {
+    margin-bottom: 1rem;
+    font-size:10px
+}
+.widget h2,
+h3.widget-title, 
+h2.widget-title {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border:1px solid #ccc
+}
+article.sticky .bshop-single-list {
+    background: #e9e9e9;
+    border-radius: 40px 0 40px 0;
+}
+.site-footer, 
+.site-main .comment-navigation, 
+.site-main .posts-navigation, 
+.site-main .post-navigation {
+    background: #dddeee;
+}
+.col-lg-auto.ms-auto {
+    margin-left: auto;
+}
+.breadmore {
+    margin-top: 15px;
+    font-size: 15px;
+}
+h1.site-title a {
+    color: #4169e1;
+    text-decoration: none;
+    font-style: italic;
+}
+
+h1.site-title a{
+    text-decoration: none;
+}
+.bsgrid-item h2.entry-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.bsgrid-item header.entry-header {
+    margin-bottom: 10px;
+}
+.mobile-topbar{
+    padding: 3px 0;
+}
+.mobile-topbar-logo .mobile-site-title{
+    font-size: 14px !important;
+}
+/* Blog Card Improvements */
+.row[data-masonry] > article,
+.row[data-masonry] > .post,
+.row[data-masonry] > div[class*="post"] {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px 0 rgba(60,60,60,0.08);
+    margin-bottom: 32px;
+    padding: 28px 24px 20px 24px;
+    transition: box-shadow 0.2s, transform 0.2s;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.row[data-masonry] > article:hover,
+.row[data-masonry] > .post:hover,
+.row[data-masonry] > div[class*="post"]:hover {
+    box-shadow: 0 8px 32px 0 rgba(60,60,60,0.16);
+    transform: translateY(-4px) scale(1.02);
+}
+
+.row[data-masonry] h1, 
+.row[data-masonry] h2, 
+.row[data-masonry] h3, 
+.row[data-masonry] h4 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.row[data-masonry] .entry-title a {
+    color: #2d3a4a;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.row[data-masonry] .entry-title a:hover {
+    color: #0073e6;
+}
+
+.row[data-masonry] .post-thumbnail img {
+    border-radius: 12px;
+    margin-bottom: 16px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 12px 0 rgba(60,60,60,0.06);
+}
+
+.row[data-masonry] .entry-meta {
+    font-size: 0.95em;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.row[data-masonry] .entry-content {
+    margin-bottom: 0;
+    color: #444;
+    font-size: 1.08em;
+}
+
+.row[data-masonry] .read-more,
+.row[data-masonry] a.more-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: #0073e6;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #0073e6;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+.row[data-masonry] .read-more:hover,
+.row[data-masonry] a.more-link:hover {
+    color: #005bb5;
+    border-color: #005bb5;
+}
+
+/* Sidebar widgets */
+.widget {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px 0 rgba(60,60,60,0.07);
+    padding: 22px 18px 18px 18px;
+    margin-bottom: 28px;
+}
+
+.widget-title {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 6px;
+    color: #2d3a4a;
+    letter-spacing: 0.5px;
+}
+
+.woocommerce .products ul, .woocommerce ul.products{
+    gap: 5px;
+}
+
+
+.footer-widget a:hover, 
+.footer-widget a:focus, 
+.footer-widget a:active{
+    color:#ededed
+}
+.footer-widget .widget-title {
+    padding-left: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .topmenu-serch.bsearch-popup {
+        justify-content: flex-end;
+    }
+    .h1.site-title a {
+        font-size: 24px;
+    }
+}
